@@ -7,11 +7,13 @@ const Navbar = () => {
     <a className="navbar-brand text-white mx-3" role='button' href="http://localhost:3000/">KARUNA PAWAR</a>
     <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div className="navbar-nav ms-auto">
+
         <a className="nav-link active text-white" role='button' aria-current="page">Home</a>
         <a className="nav-link text-white" role='button'>About Me</a>
         <a className="nav-link text-white" role='button'>My Projects</a>
         <a className="nav-link text-white" role='button'>Contact Me</a>
       </div>
+      
     </div>
   </nav>
   );
